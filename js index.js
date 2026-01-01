@@ -57,3 +57,16 @@ function askAI() {
   }
 }
 
+// Dynamic Selection for Multiple Badges
+const allBadges = document.querySelectorAll('.availability-section .badge');
+
+allBadges.forEach(badge => {
+  badge.addEventListener('click', () => {
+    allBadges.forEach(b => b.classList.remove('selected'));
+
+    badge.classList.add('selected');
+
+    console.log('Current Status:', badge.dataset.status);
+  });
+});
+
