@@ -40,6 +40,18 @@ body {
   color: #22d3ee;
 }
 
+/* ===== Mobile Navbar ===== */
+@media (max-width: 768px) {
+  .navbar {
+    padding: 15px 20px;
+  }
+
+  .nav-links {
+    display: none;
+  }
+}
+
+
 /* Hero */
 .hero {
   min-height: 90vh;
@@ -1013,4 +1025,5 @@ body {
     text-align: center;
   }
 }
+
 
