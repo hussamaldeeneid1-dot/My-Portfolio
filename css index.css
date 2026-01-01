@@ -730,3 +730,154 @@ body {
 }
 /*=======================================================*/
 
+/* ===== CALL TO ACTION (cta) ===== */
+
+.cta-section {
+  padding: 100px 40px;
+  text-align: center;
+  background: radial-gradient(circle at center, #0ea5e9 0%, #020617 60%);
+  border-top: 1px solid #1e293b;
+}
+
+.cta-section h2 {
+  font-size: 42px;
+  margin-bottom: 20px;
+  color: #e5e7eb;
+}
+
+.cta-section p {
+  font-size: 18px;
+  color: #cbd5f5;
+  max-width: 600px;
+  margin: 0 auto 40px;
+}
+
+.cta-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.cta-btn {
+  padding: 16px 38px;
+  border-radius: 999px;
+  font-weight: bold;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+/* Primary Button */
+.cta-btn.primary {
+  background: #22d3ee;
+  color: #020617;
+}
+
+.cta-btn.primary:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 15px 40px rgba(34, 211, 238, 0.4);
+}
+
+/* Secondary Button */
+.cta-btn.secondary {
+  background: transparent;
+  color: #22d3ee;
+  border: 2px solid #22d3ee;
+}
+
+.cta-btn.secondary:hover {
+  background: #22d3ee;
+  color: #020617;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .cta-section h2 {
+    font-size: 32px;
+  }
+
+  .cta-section p {
+    font-size: 16px;
+  }
+}
+/*===================================*/
+
+/* Availability Badge Section */
+.availability-section {
+  padding: 80px 60px;
+  text-align: center;
+}
+
+.availability-section h2 {
+  font-size: 36px;
+  margin-bottom: 40px;
+  color: #22d3ee;
+}
+
+.badge-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.badge {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  padding: 12px 22px;
+  border-radius: 25px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: transform 0.2s, box-shadow 0.2s;
+  color: #020617;
+  min-width: 130px;
+  font-size: 16px;
+}
+
+/* Colors */
+.badge.available {
+  background-color: #28a745;
+  color: #fff;
+}
+.badge.busy {
+  background-color: #dc3545;
+  color: #fff;
+}
+.badge.away {
+  background-color: #ffc107;
+  color: #212529;
+}
+.badge.dnd {
+  background-color: #6c757d;
+  color: #fff;
+}
+.badge.offline {
+  background-color: #343a40;
+  color: #fff;
+}
+.badge.unknown {
+  background-color: #17a2b8;
+  color: #fff;
+}
+
+.badge:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 6px 20px rgba(34, 211, 238, 0.4);
+}
+
+/* Selected Badge */
+.badge.selected {
+  box-shadow: 0 6px 20px rgba(34, 211, 238, 0.6);
+  transform: translateY(-3px);
+  border: 2px solid #22d3ee;
+}
+
+/* Hover effect */
+.badge:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 6px 20px rgba(34, 211, 238, 0.4);
+}
+
+/*======================================================================*/
