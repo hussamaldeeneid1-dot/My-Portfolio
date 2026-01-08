@@ -897,13 +897,7 @@ body {
   }
 } 
 
-.ai-query {
-  width: 80%;
-  margin-bottom: 15px;
-}
-.ai-portfolio button {
-  width: 80%;
-} 
+
 /*===========================================*/
 .menu-toggle {
   display: none;
@@ -933,4 +927,5 @@ body {
     display: flex;
   }
 }
+
 
